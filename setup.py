@@ -10,5 +10,6 @@ setup(
    long_description=long_description,
    author='Andrew Wong',
    author_email='wong.816@osu.edu',
-   scripts=['notifications.py', 'test_notifications.py'],
+   scripts=['notifications.py', 'test_notifications.py', 'load_json.py'],
+   data_files = ['notifications_old.json']
 )

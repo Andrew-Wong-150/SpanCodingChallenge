@@ -50,6 +50,14 @@ For other functions
 ]
 ```
 
+## Running the script
+
+To run the script using all three functions use ````load_json.py```` with an argument containing the name of a json file in the old notification format. An example of this is given below:
+```bash
+python load_json.py "notifications_old.json"
+```
+The function updates the notifications to the new format and then deduplicates and sorts the data. The output is written to ````output.json````
+
 ## Testing
 To run the unit tests:
 ```bash
